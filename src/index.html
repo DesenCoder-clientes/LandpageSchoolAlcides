@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" media="(min-width: 1440px)" href="css/large.css" />
+    <link rel="stylesheet" media="(min-width: 550px)" href="css/medium.css" />
+    <link rel="stylesheet" media="(max-width: 549px)" href="css/small.css" />
     <title>E.E.A.M.S</title>
   </head>
   <body>
@@ -23,10 +25,30 @@
     </header>
 
     <!-- SECTION ONE -->
-    <section id="header"></section>
+    <section id="header" class="section-one">
+      <div class="content">
+        <div class="title-wrapper">
+          <h1>Excelência em Ensino</h1>
+        </div>
+        <div class="image-info-wrapper">
+          <div class="image-wrapper">
+            <img src="../assets/imageChage1.png" />
+          </div>
+          <div class="info-wrapper">
+            <p>
+              A ideia da criação da Escola Estadual “Alcides Mendes da Silva”,
+              nasceu de uma reunião realizada em Recife, Estado de Pernambuco,
+              para a qual foram convocados todos os Prefeitos dos Municípios
+              Mineiros, componentes da área mineira de atuação da SUDENE (...)
+            </p>
+            <button>Veja mais</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- SECTION TWO -->
-    <section id="section-two" class="section">
+    <section id="section-two" class="section-two">
       <h2>A ESCOLA EM NÚMEROS</h2>
       <div class="cards-wrapper">
         <div class="card">
@@ -70,5 +92,5 @@
     <!-- SECTION FIVE -->
     <footer id="footer"></footer>
   </body>
-  <script src="./js/script.js"></script>
+  <script src="./js/SmoothigScroll.js"></script>
 </html>
