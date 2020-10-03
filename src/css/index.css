@@ -23,6 +23,9 @@ footer {
   justify-content: center;
 }
 
+h1, h2, h3, h4, h5 {
+  color: #B5B1B1;
+}
 p {
   color: #B5B1B1;
 }
@@ -94,7 +97,7 @@ p {
   background-color: blue;
 }
 
-.section-one{
+.section-one, .section-two {
   height: 100vh;
 }
 
@@ -102,7 +105,6 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
 }
 
 .section-one .container-wrapper .row{
@@ -147,4 +149,24 @@ p {
 .section-one .container-wrapper .row .col .button:hover{
   background-color: #0b567a;
   transition: 600ms ease-in-out;
+}
+
+.section-two {
+  background-color: darkgoldenrod;
+  
+}
+
+.section-two .container-wrapper .row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+
+}
+
+.section-two .container-wrapper .row .col {
+  display: flex;
+  flex-wrap: wrap;
+  width: 33%
 }
