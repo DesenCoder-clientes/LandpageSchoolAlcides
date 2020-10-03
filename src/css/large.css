@@ -16,6 +16,7 @@ ul {
   list-style: none;
 }
 
+
 /* HEADER */
 .nav-bar {
   width: 100%;
@@ -46,23 +47,6 @@ ul {
 .nav-bar li:first-child a {
   border-bottom: 3px solid #ff0000;
 }
-/* .nav-bar li {
-  width: 150px;
-  float: left;
-}
-
-.nav-bar li a {
-  padding: 15px;
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  color: #858484;
-}
-.nav-bar li a:focus {
-  border-bottom-width: 3px;
-  border-color: red;
-  border-style: solid;
-} */
 
 .content {
   width: 80%;
@@ -73,19 +57,44 @@ ul {
   display: flex;
   justify-content: center;
 }
-
 .logo {
-  width: 120px;
-  height: 100px;
+  max-width: 120px;
+  max-height: 100px;
 }
 
+.school-image {
+  max-width: 240px;
+  max-height: 240px;
+}
+
+/* SECTION ONE */
+/* .section-one {
+  width: 100%;
+  height: 100vh;
+} */
+/* .container-info-wrapper{ */
+  /* background-color: blue; */
+  /* display: flex;
+  align-items: center;
+} */
+
+/* .info-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  /* background-color: red; */
+/* } */ 
+
+
 /* SECTION TWO */
-.section-two {
+/* .section-two {
   width: 100%;
   height: 100vh;
   text-align: center;
-  background-color: #fafafa;
+  background-color: #f5f5f5;
 }
+
 .section-two h2 {
   font-size: clamp(1rem, 2.5vw, 2rem);
   padding: 3%;
@@ -138,4 +147,11 @@ ul {
   font-size: clamp(2rem, 3.5vw, 4.5rem);
   font-weight: bold;
   color: #cecece;
+} */
+
+.section-one 
+.section-two 
+.section-three 
+.section-four {
+ background-color: blue;
 }

@@ -55,8 +55,8 @@ ul {
   justify-content: center;
 }
 .logo {
-  width: 120px;
-  height: 100px;
+  max-width: 120px;
+  max-height: 100px;
 }
 
 /* SECTION ONE */
@@ -74,7 +74,7 @@ ul {
   font-size: clamp(1rem, 5.5vw, 3.5rem);
   color: #002e44;
 }
-.section-one .image-info-wrapper {
+.section-one .container-info-wrapper {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
@@ -113,7 +113,7 @@ ul {
 /* SECTION TWO */
 .section-two {
   width: 100%;
-  height: 120vh;
+  height: 100vh;
   text-align: center;
   background-color: #fafafa;
 }
