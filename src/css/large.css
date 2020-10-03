@@ -101,7 +101,6 @@ ul {
   width: clamp(150px, 300px, 400px);
   height: clamp(5rem, 50vh, 15rem);
   display: flex;
-  background-color: blue;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
