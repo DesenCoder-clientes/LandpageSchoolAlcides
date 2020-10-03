@@ -180,7 +180,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
-  height: 360px;
+  height: 340px;
   border-radius: 1rem;
    box-shadow: 2px 5px 2px #999;
    -webkit-box-shadow: 2px 5px 2px #999;
@@ -200,4 +200,33 @@ p {
 
 .section-two .container-wrapper .row .col .card .icon-wrapper .icon-card {
   width: 60%;
+}
+
+.section-two .container-wrapper .row .col .card .row-card:first-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 35%;
+}
+
+.section-two .container-wrapper .row .col .card .row-card:last-child {
+  width: 100%;
+  text-align: center;
+  height: 54%;
+}
+
+.section-two .container-wrapper .row .col .card .row-card h3 {
+  color: #194357;
+  font-size: clamp(0.4rem, 2vw, 1.6rem);
+}
+
+.section-two .container-wrapper .row .col .card .row-card h4 {
+  width: 70%;
+  font-size: clamp(0.4rem, 2vw, 1.0rem);
+}
+
+.section-two .container-wrapper .row .col .card .row-card h5 {
+  font-size: clamp(0.4rem, 2vw, 4rem);
 }
