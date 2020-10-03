@@ -111,7 +111,6 @@ p {
   align-items: center;
   width: 100%;
   height: 80%;
-  background-color: brown;
 }
 
 .section-one .container-home-wrapper .row .col {
@@ -124,12 +123,29 @@ p {
   height: 100%;
   align-items: flex-end;
   justify-content: flex-end;
-  background-color: burlywood;
 }
 
 .section-one .container-home-wrapper .row .col .title-home .hat-title {
   max-width: 100%;
 }
 .section-one .container-home-wrapper .row .col p {
-  font-size: clamp(0.2rem, 2vw, 1.6rem);
+  font-size: clamp(0.4rem, 2vw, 1.6rem);
+}
+
+.section-one .container-home-wrapper .row .col .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 164px;
+  height: 48px;
+  background-color: #117CAF;
+  color: #fff;
+  border-radius: 6px;
+  margin-top: 2rem;
+}
+
+.section-one .container-home-wrapper .row .col .button:hover{
+  background-color: #0b567a;
+  transition: 600ms ease-in-out;
+  
 }
