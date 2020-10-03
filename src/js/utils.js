@@ -11,6 +11,11 @@ selectorList.forEach((item,index)=>{
 
 })
 
+
+
+
+
+
 window.onscroll = function() {scrollMenuFixed()};
 
 var header = document.getElementById('header');
