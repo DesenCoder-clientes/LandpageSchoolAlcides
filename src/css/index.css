@@ -223,10 +223,11 @@ p {
 }
 
 .section-two .container-wrapper .row .col .card .row-card h4 {
-  width: 70%;
+  color: #CECECE;
   font-size: clamp(0.4rem, 2vw, 1.0rem);
 }
 
 .section-two .container-wrapper .row .col .card .row-card h5 {
-  font-size: clamp(0.4rem, 2vw, 4rem);
+  color: #CECECE;
+  font-size: clamp(0.4rem, 6vw, 5.0rem);
 }
