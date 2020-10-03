@@ -22,7 +22,6 @@ ul {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
 }
 .nav-bar ul {
   width: 65%;
@@ -45,6 +44,12 @@ ul {
   border-bottom: 3px solid #ff0000;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .content {
   width: 80%;
   height: auto;
@@ -53,10 +58,14 @@ ul {
 .header {
   display: flex;
   justify-content: center;
+  background-color: #fff;
+}
+.container-logo {
+  margin: 1em;
 }
 .logo {
   max-width: 120px;
-  max-height: 100px;
+  max-height: 80px;
 }
 
 .school-image {
