@@ -113,7 +113,7 @@ footer {
   background-color: brown;
 }
 
-.col {
+.section-one .container-info-wrapper .row .col {
   display: flex;
   flex-wrap: wrap;
   width: 50%;
