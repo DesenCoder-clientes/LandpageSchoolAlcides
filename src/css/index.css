@@ -188,3 +188,16 @@ p {
   background-color: #fff;
 }
 
+.section-two .container-wrapper .row .col .card .icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  background-color: #FF6A6A;
+}
+
+.section-two .container-wrapper .row .col .card .icon-wrapper .icon-card {
+  width: 60%;
+}
