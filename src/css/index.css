@@ -43,7 +43,11 @@ ul {
 .nav-bar li:nth-child(1) a {
   border-bottom: 3px solid #ff0000;
 }
-
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
 .sticky {
   position: fixed;
   top: 0;
@@ -55,11 +59,7 @@ ul {
   height: auto;
 }
 
-.header {
-  display: flex;
-  justify-content: center;
-  background-color: #fff;
-}
+
 .container-logo {
   margin: 1em;
 }
