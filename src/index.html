@@ -18,12 +18,18 @@
             alt="logo escola alcides"
           />
         </div>
-        <ul>
-          <li class="list"><a href="#header">Home</a></li>
-          <li class="list"><a href="#section-two">Escola Números</a></li>
-          <li class="list"><a href="#section-four">Destaques</a></li>
-          <li class="list"><a href="#section-five">Educadores</a></li>
-          <li class="list"><a href="#footer">Contatos</a></li>
+        <ul id="buttons">
+          <li id="btn-01" class="list active"><a href="#header">Home</a></li>
+          <li id="btn-02" class="list">
+            <a href="#section-two">Escola Números</a>
+          </li>
+          <li id="btn-03" class="list">
+            <a href="#section-four">Destaques</a>
+          </li>
+          <li id="btn-04" class="list">
+            <a href="#section-five">Educadores</a>
+          </li>
+          <li id="btn-05" class="list"><a href="#footer">Contatos</a></li>
         </ul>
       </nav>
     </header>
@@ -76,10 +82,7 @@
                 </div>
                 <div class="row-card">
                   <h3>Número de matrículas</h3>
-                  <h4>
-                    Total de estudantes ativos
-                    matrículados
-                  </h4>
+                  <h4>Total de estudantes ativos matrículados</h4>
                   <h5>781</h5>
                 </div>
               </div>
@@ -102,12 +105,12 @@
 
             <div class="col">
               <div class="card">
-              <div class="row-card">
-                <div class="icon-wrapper">
-                  <img src="../assets/svg/girl.svg" class="icon-card" />
+                <div class="row-card">
+                  <div class="icon-wrapper">
+                    <img src="../assets/svg/girl.svg" class="icon-card" />
+                  </div>
                 </div>
-              </div>
-              
+
                 <div class="row-card">
                   <h3>Distribuição por Gênero</h3>
                   <h4>Percentual dos estudantes do sexo feminino</h4>
@@ -483,5 +486,6 @@
     </div>
   </body>
   <script src="./js/SmoothigScroll.js"></script>
+  <script src="./js/MenuItemActive.js"></script>
   <script src="./js/utils.js"></script>
 </html>

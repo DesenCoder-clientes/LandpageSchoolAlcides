@@ -1,24 +1,8 @@
-const selectorList = document.querySelectorAll('.list');
+window.onscroll = function () {
+  scrollMenuFixed();
+};
 
-console.log(selectorList);
-
-// const list = selectorList.length();
-selectorList.forEach((item,index)=>{
-  console.log(item);
-  item.addEventListener("click", function onClick(event){
-    console.log(event)
-  })
-
-})
-
-
-
-
-
-
-window.onscroll = function() {scrollMenuFixed()};
-
-var header = document.getElementById('header');
+var header = document.getElementById("header");
 var sticky = header.offsetTop;
 
 function scrollMenuFixed() {
