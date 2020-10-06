@@ -56,14 +56,6 @@ p {
   text-align: center;
   color: #858484;
 }
-/* .nav-bar a:hover {
-  transition: 100ms ease-out;
-  border-bottom: 3px solid #194357;
-} */
-/* .nav-bar li:nth-child(1) a {
-  border-bottom: 3px solid #ff0000;
-} */
-
 .active {
   border-bottom: 3px solid #ff0000;
 }
