@@ -187,7 +187,7 @@ p {
   background-color: #fff;
 }
 
-.section-two .container-wrapper .row .col .card .icon-wrapper {
+.icon-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -197,7 +197,15 @@ p {
   background-color: #ff6a6a;
 }
 
-.section-two .container-wrapper .row .col .card .icon-wrapper .icon-card {
+.icon2-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+}
+
+.icon-card {
   width: 60%;
 }
 
@@ -229,4 +237,27 @@ p {
 .section-two .container-wrapper .row .col .card .row-card h5 {
   color: #cecece;
   font-size: clamp(0.4rem, 6vw, 5rem);
+}
+
+
+
+
+.text {
+  text-align: justify;
+}
+
+.card {
+  background-color: #0b567a;
+  width:40%;
+  margin: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
 }
