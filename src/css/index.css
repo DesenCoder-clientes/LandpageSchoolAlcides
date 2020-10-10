@@ -241,6 +241,7 @@ p {
 
 
 
+/* __________________ */
 
 .text {
   text-align: justify;
@@ -255,9 +256,16 @@ p {
 .row {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .col {
   display: flex;
   flex-direction: column;
 }
+
+.contentTitle {
+  display: flex;
+  justify-content: center;
+}
+
