@@ -102,6 +102,7 @@ p {
 
 }
 
+/* -------- row and columns alinhamentos ----------- */
 .row {
   display: flex;
   flex-direction: row;
@@ -118,6 +119,11 @@ p {
 .row-vertical-align {
   display: flex;
   align-items: center;
+}
+
+.row-horizontal-space {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .wrapper {
@@ -264,7 +270,7 @@ p {
   justify-content: space-evenly;
 }
 
-/* Estilização dos cards */
+/* Estilização dos alinhamentos */
 
 
 .size {
@@ -276,15 +282,16 @@ p {
   margin: 2rem;
 }
 
+
 /* Estilização dos textos */
 
-.contentTitle {
+.content-title {
   display: flex;
   justify-content: center;
   margin: 2.5rem;
 }
 
-.contentTitle h2 {
+.content-title h2 {
   text-transform: uppercase;
 }
 
@@ -311,6 +318,7 @@ p {
 
 .thin-text {
   font-weight: lighter;
+  font-size: clamp(0.8rem, 2vw, 1.0rem);
 }
 
 .bold-text {
@@ -366,8 +374,20 @@ p {
   background-color: #2780AC;
 }
 
-.section-five col {
-  max-width: 240px;
+.section-five .col {
+  align-items: center;
+  justify-content: space-evenly;
+  height: 150px;
+}
+
+.safe-col {
+  display: flex;
+  justify-content: center;
+  max-width: 340px;
   width: 100%;
   background-color: #858484;
+}
+
+.section-five .safe-col{
+  margin: 2rem;
 }
