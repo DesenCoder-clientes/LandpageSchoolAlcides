@@ -210,26 +210,37 @@ p {
 }
 
 
-.section-two .row-center{
-  justify-content: space-between;
+.section-two .row-center:first-child{
+  width: 100%;
+  justify-content: center;
   align-items: flex-end;
-  background-color: #858484;
+ 
+}
 
+.section-two .row-center{
+  width: 100%;
+  justify-content: space-between;
 }
 
 
 /* Texts card */
 .section-two h3  {
+  width: 100%;
+  text-align: center;
   color: #194357;
   font-size: clamp(0.4rem, 2vw, 1.6rem);
 }
 
 .section-two h4 {
+  width: 100%;
+  text-align: center;
   color: #cecece;
   font-size: clamp(0.4rem, 2vw, 1rem);
 }
 
 .section-two .container-wrapper .row .col .card .row-center h5 {
+  width: 100%;
+  text-align: center;
   color: #cecece;
   font-size: clamp(0.4rem, 6vw, 5rem);
 } 
