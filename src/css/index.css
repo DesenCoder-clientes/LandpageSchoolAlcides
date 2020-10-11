@@ -309,10 +309,13 @@ footer {
   font-size: clamp(1rem, 2vw, 2rem);
 }
 
-.size4{
-  font-size: clamp(1rem, 2vw, 1.6rem);;
+.size4 {
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
 }
 
+.size5 {
+  font-size: clamp(1.0rem, 2vw, 1.2rem);
+}
 /* ------------ Seção 2 ----------- */
 
 .section-two {
@@ -320,14 +323,16 @@ footer {
 }
 
 .section-two .row-center{
-  background-color: #ff0000;
   justify-content: space-evenly;
 }
+.section-two .card {
+  max-height: 400px;  
+  margin: 2rem;
+}
 
-.section-two .row-center .col {
-  max-width: 150px;
-  width: 100%;
-  background-color: #333;
+.section-two .col {
+  max-width: 380px;
+
 }
 
 .section-two p {
