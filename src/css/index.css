@@ -219,7 +219,7 @@ p {
 
 .section-two .row-center{
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 
@@ -289,3 +289,6 @@ p {
   justify-content: center;
 }
 
+.align-center {
+  text-align: center;
+}
