@@ -270,6 +270,12 @@ p {
   justify-content: space-evenly;
 }
 
+.linear-border {
+  width: 100%;
+  height: 0.08rem;
+  background-color: #fff;
+}
+
 /* Estilização dos alinhamentos */
 
 
@@ -288,7 +294,7 @@ p {
 .content-title {
   display: flex;
   justify-content: center;
-  margin: 2.5rem;
+  margin-top: 2.5rem;
 }
 
 .content-title h2 {
@@ -314,6 +320,7 @@ p {
 
 .normal-text {
   font-size: clamp(0.8rem, 2vw, 1.0rem);
+  letter-spacing: normal;
 }
 
 .thin-text {
@@ -330,9 +337,16 @@ p {
 }
 
 .color-light {
-  color: #fff
+  color: #fff;
 }
 
+.color-dark {
+  color: #666363;
+}
+
+.size1 {
+  font-size: clamp(4rem, 3vw, 6.0rem);
+}
 
 /* Texts section two */
 .section-two h3  {
@@ -377,7 +391,7 @@ p {
 .section-five .col {
   align-items: center;
   justify-content: space-evenly;
-  height: 150px;
+  height: auto;
 }
 
 .safe-col {
@@ -385,9 +399,34 @@ p {
   justify-content: center;
   max-width: 340px;
   width: 100%;
-  background-color: #858484;
 }
 
 .section-five .safe-col{
   margin: 2rem;
+}
+.section-five .content-title  {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-five .normal-text {
+  line-height: 2rem;
+}
+
+.section-five .row .col {
+  width: 100%;
+  align-items: flex-start;
+}
+
+.section-five .row {
+  padding-bottom: 5rem;
+}
+
+.section-five .circle {
+  background-color: #fff;
+  margin: 2rem;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
 }
