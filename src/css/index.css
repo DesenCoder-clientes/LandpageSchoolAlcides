@@ -344,6 +344,10 @@ p {
   color: #666363;
 }
 
+.color-title {
+  color: #194357;
+}
+
 .size1 {
   font-size: clamp(4rem, 3vw, 6.0rem);
 }
