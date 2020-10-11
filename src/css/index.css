@@ -49,7 +49,6 @@ footer {
 .active {
   border-bottom: 3px solid #ff0000;
 }
-
 .header {
   display: flex;
   justify-content: center;
@@ -64,6 +63,7 @@ footer {
   width: 80%;
   height: auto;
 }
+/* ------------ images ----------- */
 .container-logo {
   margin: 1em;
 }
@@ -75,6 +75,11 @@ footer {
 .school-image {
   max-width: 100%;
   max-height: 400px;
+  min-width: 160px;
+}
+
+.title-image {
+  max-width: 100%;
 }
 
 /* ------------ Cards ----------- */
@@ -110,13 +115,19 @@ footer {
   align-items: center;
 }
 
-.row-horizontal-space {
+.row-horizontal-space-evenly {
   display: flex;
   justify-content: space-evenly;
 }
 
+.row-horizontal-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 .wrapper {
   flex-wrap: wrap;
+  transition: 2000ms ease-in-out;
 }
 
 .col {
@@ -136,60 +147,7 @@ footer {
   background-color:#2989B7;
 }
 
-.section-one {
-  height: 100vh;
-}
-
-.section-one .container-wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.section-one .container-wrapper .row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 100%;
-  height: 80%;
-}
-
-.section-one .container-wrapper .row .col {
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-}
-
-.section-one .container-wrapper .row .col:last-child {
-  height: 100%;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
-
-.section-one .container-wrapper .row .col .title-home .hat-title {
-  max-width: 100%;
-}
-.section-one .container-wrapper .row .col p {
-  font-size: clamp(0.4rem, 2vw, 1.6rem);
-}
-
-.section-one .container-wrapper .row .col .button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 164px;
-  height: 48px;
-  background-color: #117caf;
-  color: #fff;
-  border-radius: 6px;
-  margin-top: 2rem;
-}
-
-.section-one .container-wrapper .row .col .button:hover {
-  background-color: #0b567a;
-  transition: 600ms ease-out;
-}
-
+/* ------------ svgs icons ----------- */
 .icon-wrapper {
   display: flex;
   justify-content: center;
@@ -204,8 +162,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
 }
 
 .icon-card {
@@ -247,7 +205,6 @@ footer {
 }
 
 .text {
-  font-size: clamp(0.8rem, 2vw, 1.2rem);
   letter-spacing: normal;
   line-height: 2rem;
   text-indent: 1.5rem;
@@ -257,20 +214,17 @@ footer {
 .paragraph {
   margin-left: 3.2rem;
   margin-top: 0;
-  font-size: clamp(0.8rem, 2vw, 1.2rem);
   letter-spacing: normal;
   line-height: 2rem;
   text-align: justify;
 }
 
 .normal-text {
-  font-size: clamp(0.8rem, 2vw, 1.0rem);
   letter-spacing: normal;
 }
 
 .thin-text {
   font-weight: lighter;
-  font-size: clamp(0.8rem, 2vw, 1.0rem);
 }
 
 .bold-text {
@@ -320,6 +274,32 @@ footer {
 .size5 {
   font-size: clamp(1.0rem, 2vw, 1.2rem);
 }
+
+/* ------------ Seção 1 ----------- */
+.section-one {
+  align-items: center;
+  height: 100vh;
+}
+
+.section-one .col{
+  max-width: 560px;
+  width: 100%;
+}
+
+.button{
+  display: flex;
+  background-color:#117CAF ;
+  margin-top: 2.6rem;
+  padding: 0.8rem;
+  width: 30%;
+  justify-content: center;
+  border-radius: 0.4rem;
+}
+
+.button:hover{
+  transition: 300ms ease-out;
+  background-color: #0a4a69;
+}
 /* ------------ Seção 2 ----------- */
 
 .section-two {
@@ -352,7 +332,7 @@ footer {
 }
 
 .section-two .card .row .col {
-    max-width: 140px;
+  max-width: 140px;
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
