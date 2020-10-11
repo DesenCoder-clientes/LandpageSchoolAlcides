@@ -89,9 +89,6 @@ p {
 
 /* __________________ */
 
-.text {
-  text-align: justify;
-}
 
 .card {
   width:100%;
@@ -139,6 +136,7 @@ p {
   letter-spacing: normal;
   line-height: 2rem;
   text-indent: 1.5rem;
+  text-align: justify;
 }
 
 .paragraph {
@@ -147,6 +145,7 @@ p {
   font-size: clamp(0.8rem, 2vw, 1.2rem);
   letter-spacing: normal;
   line-height: 2rem;
+  text-align: justify;
 }
 
 .align-center {
