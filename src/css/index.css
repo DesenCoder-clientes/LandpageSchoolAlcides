@@ -116,6 +116,11 @@ p {
   align-items: center;
 }
 
+.row-vertical-align {
+  display: flex;
+  align-items: center;
+}
+
 .col {
   display: flex;
   flex-direction: column;
@@ -148,10 +153,18 @@ p {
   text-align: justify;
 }
 
+.size {
+  max-width: 420px;
+  max-height: 240px;
+}
+
+.spacing {
+  margin: 2rem;
+}
+
 .align-center {
   text-align: center;
 }
-
 
 .circle {
   display: flex;
@@ -163,8 +176,7 @@ p {
   background-color:#2989B7;
 }
 
-.section-one,
-.section-two {
+.section-one {
   height: 100vh;
 }
 
