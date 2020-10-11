@@ -105,7 +105,6 @@ p {
 .row {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
 }
 
 .row-center {
@@ -121,50 +120,15 @@ p {
   align-items: center;
 }
 
+.wrapper {
+  flex-wrap: wrap;
+}
+
 .col {
   display: flex;
   flex-direction: column;
 }
 
-.contentTitle {
-  display: flex;
-  justify-content: center;
-  margin: 2.5rem;
-}
-
-.contentTitle h2 {
-  text-transform: uppercase;
-}
-
-.text {
-  font-size: clamp(0.8rem, 2vw, 1.2rem);
-  letter-spacing: normal;
-  line-height: 2rem;
-  text-indent: 1.5rem;
-  text-align: justify;
-}
-
-.paragraph {
-  margin-left: 3.2rem;
-  margin-top: 0;
-  font-size: clamp(0.8rem, 2vw, 1.2rem);
-  letter-spacing: normal;
-  line-height: 2rem;
-  text-align: justify;
-}
-
-.size {
-  max-width: 420px;
-  max-height: 240px;
-}
-
-.spacing {
-  margin: 2rem;
-}
-
-.align-center {
-  text-align: center;
-}
 
 .circle {
   display: flex;
@@ -300,6 +264,67 @@ p {
   justify-content: space-evenly;
 }
 
+/* Estilização dos cards */
+
+
+.size {
+  max-width: 420px;
+  max-height: 240px;
+}
+
+.spacing {
+  margin: 2rem;
+}
+
+/* Estilização dos textos */
+
+.contentTitle {
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem;
+}
+
+.contentTitle h2 {
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: clamp(0.8rem, 2vw, 1.2rem);
+  letter-spacing: normal;
+  line-height: 2rem;
+  text-indent: 1.5rem;
+  text-align: justify;
+}
+
+.paragraph {
+  margin-left: 3.2rem;
+  margin-top: 0;
+  font-size: clamp(0.8rem, 2vw, 1.2rem);
+  letter-spacing: normal;
+  line-height: 2rem;
+  text-align: justify;
+}
+
+.normal-text {
+  font-size: clamp(0.8rem, 2vw, 1.0rem);
+}
+
+.thin-text {
+  font-weight: lighter;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.color-light {
+  color: #fff
+}
+
 
 /* Texts section two */
 .section-two h3  {
@@ -335,4 +360,14 @@ p {
 
 
 
+/* ------------ Seção 5 ----------- */
 
+.section-five {
+  background-color: #2780AC;
+}
+
+.section-five col {
+  max-width: 240px;
+  width: 100%;
+  background-color: #858484;
+}
