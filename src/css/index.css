@@ -209,21 +209,14 @@ p {
   width: 60%;
 }
 
-/* .section-two .container-wrapper .row .col .card .row-center:first-child {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+
+.section-two .row-center{
+  justify-content: space-between;
   align-items: flex-end;
-  width: 100%;
-  height: 35%;
+  background-color: #858484;
+
 }
 
-.section-two .container-wrapper .row .col .card .row-center:last-child {
-  width: 100%;
-  text-align: center;
-  height: 54%;
-}
-*/
 
 /* Texts card */
 .section-two h3  {
@@ -250,14 +243,15 @@ p {
 }
 
 .card {
-  background-color: #0b567a;
   width:100%;
+  height: 300px;
   margin: 2rem;
   border-radius: 1rem;
   box-shadow: 2px 5px 2px #999;
   -webkit-box-shadow: 2px 5px 2px #999;
   -moz-box-shadow: 2px 2px 2px #999;
   background-color: #fff;
+
 }
 
 .row {
