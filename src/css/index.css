@@ -391,7 +391,32 @@ footer {
   height: 150px;
   border-radius: 150px;
 }
+/* ------------ footer section ----------- */
 
+.footer-section {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  background-color: #ff6a6a;
+}
+
+.footer-section img {
+  width: 40%;
+}
+
+.footer-section img {
+  width: 40%;
+  max-width: 340px;
+  margin: 4rem;
+}
+
+.footer-section .col {
+  background-color: #333;
+  max-width: 400px;
+  align-items: center;
+  justify-content: space-between;
+}
 /* ------------ slider ----------- */
 
 .section-carousel{
