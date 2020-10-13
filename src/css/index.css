@@ -390,3 +390,34 @@ footer {
   height: 150px;
   border-radius: 150px;
 }
+
+/* ------------ slider ----------- */
+
+.section-carousel{
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  height: 50vw;
+  max-height: 100%;
+  position: absolute;
+  z-index: 10;
+}
+
+#carousel {
+  width: 100%;
+  height: 50vw;
+  max-height: 100%;
+  position: relative;
+}
+
+#carousel img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  object-fit: cover;
+  transition: opacity 800ms ease-out;
+}
+
+#carousel img.selected{
+  opacity: 1;
+}
