@@ -414,9 +414,15 @@ footer {
 .footer-section .col {
   background-color: #333;
   max-width: 400px;
+  max-height: 240px;
   align-items: center;
-  justify-content: space-between;
+  margin: 2rem;
 }
+
+.footer-section .row-horizontal-space-between{
+  justify-content: center;
+}
+
 /* ------------ slider ----------- */
 
 .section-carousel{
