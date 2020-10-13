@@ -194,7 +194,7 @@ footer {
 .content-title {
   display: flex;
   justify-content: center;
-  margin-top: 2.5rem;
+  padding: 2.5rem;
 }
 
 .content-title h2 {
@@ -297,6 +297,13 @@ footer {
   transition: 300ms ease-out;
   background-color: #0a4a69;
 }
+
+/* verificar se é a melhor solução para alinhar */
+
+/* .section-one .row-horizontal-space-between{
+  justify-content: center;
+} */
+
 /* ------------ Seção 2 ----------- */
 
 .section-two {
@@ -338,6 +345,12 @@ footer {
 .section-two .circle {
   margin: 1.2rem;
 }
+/* ------------ Seção 4 ----------- */
+
+.section-four {
+  background-color: #f5f5f5;
+}
+
 
 /* ------------ Seção 5 ----------- */
 
