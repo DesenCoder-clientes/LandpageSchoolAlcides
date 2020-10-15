@@ -1,4 +1,4 @@
-const menuItems2 = document.querySelectorAll(".nav-bar li");
+const menuItems2 = document.querySelectorAll("nav li a");
 
 menuItems2.forEach((item) => {
   item.addEventListener("click", function onClick() {

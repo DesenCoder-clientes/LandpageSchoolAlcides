@@ -10,12 +10,42 @@
 </head>
 
 <body>
-  <header class="header" id="header">
-    <nav class="nav-bar content">
-      <div class="container-logo">
-        <img src="../assets/svg/logo.svg" class="logo" alt="logo escola alcides" />
-      </div>
-      <button id="btn-menu">Toggle</button>
+  <header id="header">
+    <nav class="content">
+
+      <input type="checkbox" id="check">
+
+      <label for="check" class="checkbtn">
+        <img src="../assets/ico/menu.svg" alt="menu" width="100%"/>
+      </label>
+
+
+      <label>
+        <img src="../assets/svg/logo.svg" class="logo" />
+      </label>
+
+      <ul>   
+
+        <li><a class="active" href="#section-one">Home</a></li>
+
+        <li>
+          <a href="#section-two">Escola Números</a>
+        </li>
+
+        <li>
+          <a href="#section-four">Destaques</a>
+        </li>
+
+        <li>
+          <a href="#section-five">Educadores</a>
+        </li>
+
+        <li><a href="#footer">Contatos</a></li>
+
+      </ul>
+
+
+      <!-- <button id="btn-menu">Toggle</button>
       <ul id="buttons">        
         <li id="btn-01" class="list active"><a href="#header">Home</a></li>
         <li id="btn-02" class="list">
@@ -28,14 +58,14 @@
           <a href="#section-five">Educadores</a>
         </li>
         <li id="btn-05" class="list"><a href="#footer">Contatos</a></li>
-      </ul>
+      </ul> -->
     </nav>
   </header>
 
   <!------------------- SEÇÃO 1 -------------------------- -->
 
   <div class="container">
-    <section id="header" class="section-one">
+    <section id="section-one" class="section-one">
 
       <div class="content">
 
@@ -642,7 +672,7 @@
 <script src="./js/MenuItemActive.js"></script>
 <script src="./js/Utils.js"></script>
 <script src="./js/Slider.js"></script>
-<script src="./js/HandleMenuDrawer.js"></script>
+<!-- <script src="./js/HandleMenuDrawer.js"></script> -->
 
 
 </html>
