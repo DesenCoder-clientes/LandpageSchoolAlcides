@@ -144,6 +144,7 @@ a:active, a:hover{
   max-width: 100%;
   max-height: 400px;
   min-width: 160px;
+  margin: 1rem;
 }
 
 .title-image {
@@ -253,7 +254,7 @@ a:active, a:hover{
 }
 
 .spacing {
-  margin: 2rem;
+  margin-left: 0.9rem;
 }
 
 /* Estilização dos textos */
@@ -328,15 +329,15 @@ a:active, a:hover{
 }
 
 .size3 {
-  font-size: clamp(1.2rem, 2vw, 2.2rem);
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
 }
 
 .size4 {
-  font-size: clamp(1.4rem, 2vw, 1.8rem);
+  font-size: clamp(1.2rem, 2vw, 1.3rem);
 }
 
 .size5 {
-  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-size: clamp(0.8rem, 2vw, 0.8rem);
 }
 
 /* ------------ Seção 1 ----------- */
@@ -354,8 +355,7 @@ a:active, a:hover{
   display: flex;
   background-color: #117caf;
   margin-top: 2.6rem;
-  padding: 0.8rem;
-  width: 30%;
+  padding: 0.9rem 2rem ;
   justify-content: center;
   border-radius: 0.4rem;
 }
@@ -414,6 +414,13 @@ a:active, a:hover{
 
 .section-four {
   background-color: #f5f5f5;
+}
+
+.section-four .card {
+  height: 280px;
+  padding-top: 0 ;
+  margin: 1.2rem;
+
 }
 
 /* ------------ Seção 5 ----------- */
