@@ -13,7 +13,3 @@ menuItems2.forEach((item) => {
     });
   });
 });
-
-// document.addEventListener("scroll", () => {
-//   console.log(window.pageYOffset);
-// });
