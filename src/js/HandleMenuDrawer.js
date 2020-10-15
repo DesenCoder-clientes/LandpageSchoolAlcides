@@ -4,7 +4,9 @@ const menuDrawer = document.getElementById('buttons')
 button.addEventListener("click", (e) => toggle(e))
 
 menuItems2.forEach((item) => {
-  item.addEventListener("click", (e) => toggle(e));
+	if(window.matchMedia("(max-width: 500px)").matches){
+		item.addEventListener("click", (e) => toggle(e));
+	}
 });
 
 function toggle(e){

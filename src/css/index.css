@@ -50,7 +50,7 @@ body {
   color: #858484;
 }
 
-.btn-menu {
+#btn-menu {
   display: none;
 }
 
@@ -97,7 +97,7 @@ body {
     position: absolute;
     z-index: 1;
     top: 30px;
-    right: 20px;
+    right: 40px;
     border: 0;
     outline: none;
   }
