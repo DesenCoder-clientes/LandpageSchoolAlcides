@@ -46,7 +46,7 @@ footer {
 header{
   background: #fff;
   z-index: 999;
-}
+} 
 
 nav {
   height: 80px;
@@ -84,7 +84,6 @@ a:active, a:hover{
 
 .checkbtn {
   float: right;
-  margin-right: 40px;
   line-height: 80px;
   width: 30px;
   cursor: pointer;
@@ -129,7 +128,6 @@ a:active, a:hover{
   #check:checked~ul{
     left: 0;
   }
-
 
 }
 
@@ -369,9 +367,7 @@ a:active, a:hover{
 
 /* verificar se é a melhor solução para alinhar */
 
-/* .section-one .row-horizontal-space-between{
-  justify-content: center;
-} */
+
 
 /* ------------ Seção 2 ----------- */
 
