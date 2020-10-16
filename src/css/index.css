@@ -195,7 +195,7 @@ a:active, a:hover{
 
 .wrapper {
   flex-wrap: wrap;
-  transition: 800ms ease-in-out;
+  transition: .5s;
 }
 
 .col {
