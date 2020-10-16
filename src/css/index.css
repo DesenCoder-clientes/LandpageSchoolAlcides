@@ -35,6 +35,11 @@ footer {
   width: 80%;
   height: auto;
 }
+
+.container {
+  background: chartreuse;
+  
+}
 /* ------------ header ----------- */
 .sticky {
   position: fixed;
@@ -372,7 +377,7 @@ a:active, a:hover{
 /* ------------ Seção 2 ----------- */
 
 .section-two {
-  background-color: #f5f5f5;
+  background-color:#f0f0f0;
 }
 .section-two .row-center {
   justify-content: space-evenly;
