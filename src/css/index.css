@@ -585,3 +585,26 @@ a:hover {
   max-width: 80px;
   width: 60%;
 }
+#contentIndicators {
+  position: absolute;
+  z-index: 99;
+  display: flex;
+  flex-direction: row;
+  bottom: 4%;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 0.6rem;
+}
+
+#contentIndicators div.actived {
+  width: 16px;
+  height: 16px;
+  border-radius: 16px;
+  background-color: #2989b7;
+  transition: 0.5s;
+}
