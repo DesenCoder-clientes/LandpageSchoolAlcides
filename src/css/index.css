@@ -119,6 +119,7 @@ a:hover {
 
   nav ul li a {
     font-size: 20px;
+    color: #ccc;
   }
 
   a:hover,
