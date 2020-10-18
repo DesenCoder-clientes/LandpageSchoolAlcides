@@ -72,12 +72,10 @@ nav ul {
 nav ul li {
   display: inline-block;
   line-height: 80px;
-  margin: 0 5px;
-
 }
 
 nav ul li a{
-  color: #ccc;
+  color: #858484;
   padding: 7px 13px;
   border-radius: 3px;
 }
@@ -260,6 +258,7 @@ a:active, a:hover{
 
 .spacing {
   margin-left: 0.9rem;
+  margin-right: 0.9rem;
 }
 
 /* Estilização dos textos */
@@ -272,6 +271,10 @@ a:active, a:hover{
 
 .content-title h2 {
   text-transform: uppercase;
+}
+
+.justify {
+  text-align: justify;
 }
 
 .text {
@@ -342,7 +345,7 @@ a:active, a:hover{
 }
 
 .size5 {
-  font-size: clamp(0.8rem, 2vw, 0.8rem);
+  font-size: clamp(0.9rem, 2vw, 1rem);
 }
 
 /* ------------ Seção 1 ----------- */
@@ -422,7 +425,8 @@ a:active, a:hover{
 }
 
 .section-four .card {
-  height: 280px;
+  min-height: 280px;
+  max-height: 480px;
   padding-top: 0 ;
   margin: 1.2rem;
 
