@@ -1,5 +1,4 @@
-/* SCROLL SUAVE DO LINK ÂNCORA */
-const menuItems = document.querySelectorAll('.nav-bar a[href^="#"]');
+const menuItems = document.querySelectorAll('nav a[href^="#"]');
 
 menuItems.forEach((item) => {
   item.addEventListener("click", function onClick(event) {
