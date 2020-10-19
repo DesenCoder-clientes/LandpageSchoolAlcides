@@ -509,7 +509,6 @@ a:hover {
 
 .footer-section .linear-border {
   background-color: #cccccc;
-  position: absolute;
   bottom: 10%;
   height: 1px;
 }
@@ -522,7 +521,6 @@ a:hover {
   justify-content: center;
   height: 80px;
   width: 100%;
-  position: absolute;
   bottom: 2%;
 }
 
@@ -537,6 +535,10 @@ a:hover {
 .footerInfo img {
   margin: 0.4rem;
   width: auto;
+}
+
+.align-bar {
+  margin-top: 20%;
 }
 
 /* ------------ slider ----------- */
