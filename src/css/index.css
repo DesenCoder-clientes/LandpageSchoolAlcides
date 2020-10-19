@@ -39,17 +39,18 @@ footer {
   background: chartreuse;
 }
 /* ------------ header ----------- */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* ------------ menu ----------- */
 header {
   background: #fff;
   z-index: 999;
+  width: 100%;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+/* ------------ menu ----------- */
 
 nav {
   height: 80px;
