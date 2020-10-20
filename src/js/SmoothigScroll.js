@@ -1,13 +1,18 @@
 const menuItems = document.querySelectorAll('nav a[href^="#"]');
 const sections = document.querySelectorAll("section");
+const body = document.getElementsByTagName("body");
+
+console.log(body);
+
+window.onscroll = () => {
+  console.log("..");
+};
 
 menuItems.forEach((item) => {
   item.addEventListener("click", function onClick(event) {
     event.preventDefault();
 
     spaceTop();
-
-    console.log(event);
 
     const top = document.querySelector(event.target.getAttribute("href"))
       .offsetTop;
@@ -20,7 +25,6 @@ menuItems.forEach((item) => {
 });
 
 const spaceTop = function () {
-  console.log("clicou");
   sections.forEach((items) => {
     items.style.paddingTop = "80px";
   });
