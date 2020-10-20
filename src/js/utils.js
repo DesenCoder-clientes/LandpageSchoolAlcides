@@ -1,14 +1,22 @@
-window.onscroll = function () {
-  scrollMenuFixed();
-};
+var menu = document.querySelectorAll('nav a[href^="#"]');
+var ul = document.querySelectorAll("nav ul");
+var btn = document.getElementById("check");
 
-var header = document.getElementById("header");
-var sticky = header.offsetTop;
-
-function scrollMenuFixed() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
+btn.addEventListener("click", function onClick(event) {
+  if (ul[0].style.left === "-100%" || ul[0].style.left === "") {
+    ul[0].style.left = "0";
+    console.log("entrei");
   } else {
-    header.classList.remove("sticky");
+    ul[0].style.left = "-100%";
   }
-}
+});
+
+menu.forEach((item) => {
+  item.addEventListener("click", function onClick(event) {
+    if (ul[0].style.left === "-100%") {
+      ul[0].style.left = "0";
+    } else {
+      ul[0].style.left = "-100%";
+    }
+  });
+});
