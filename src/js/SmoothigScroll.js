@@ -5,9 +5,7 @@ menuItems.forEach((item) => {
   item.addEventListener("click", function onClick(event) {
     event.preventDefault();
 
-    sections.forEach((items) => {
-      items.style.paddingTop = "80px";
-    });
+    spaceTop();
 
     const top = document.querySelector(event.target.getAttribute("href"))
       .offsetTop;
@@ -19,11 +17,9 @@ menuItems.forEach((item) => {
   });
 });
 
-const scroll = function () {
-  window.onscroll = () => {
-    console.log("rolei");
-    sections.forEach((items) => {
-      items.style.paddingTop = "0";
-    });
-  };
+const spaceTop = function () {
+  console.log("clicou");
+  sections.forEach((items) => {
+    items.style.paddingTop = "80px";
+  });
 };

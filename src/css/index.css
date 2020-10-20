@@ -327,7 +327,7 @@ a:hover {
 }
 
 .size1 {
-  font-size: 100px;
+  font-size: clamp(3rem, 4vw, 4rem);
 }
 
 .size2 {
