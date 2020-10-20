@@ -7,6 +7,8 @@ menuItems.forEach((item) => {
 
     spaceTop();
 
+    console.log(event);
+
     const top = document.querySelector(event.target.getAttribute("href"))
       .offsetTop;
 
