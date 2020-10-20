@@ -259,6 +259,7 @@ a:hover {
 .content-title {
   display: flex;
   justify-content: center;
+  margin-top: 1.2rem;
 }
 
 .content-title h2 {
