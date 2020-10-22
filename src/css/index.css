@@ -124,6 +124,12 @@ a:hover {
     background: none;
     color: #fff;
   }
+
+  nav label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /* ------------ images ----------- */
