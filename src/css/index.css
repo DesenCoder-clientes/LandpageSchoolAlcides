@@ -498,12 +498,12 @@ a:hover {
 
 .footer-section .content {
   position: relative;
+  margin: 6rem;
 }
 
 .footer-section img {
   width: 40%;
   max-width: 340px;
-  margin: 4rem;
 }
 
 .footer-section .col {
@@ -520,7 +520,7 @@ a:hover {
 
 .footer-section .linear-border {
   background-color: #cccccc;
-  height: 1px;
+  height: 0.8px;
 }
 
 .footerInfo {
@@ -535,7 +535,7 @@ a:hover {
 }
 
 .footerInfo p {
-  font-size: 12px;
+  font-size: 11px;
   display: flex;
   justify-content: center;
   align-items: center;
