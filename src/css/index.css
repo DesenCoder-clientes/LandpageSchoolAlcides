@@ -125,14 +125,14 @@ a:hover {
 
   nav ul li a {
     font-size: 20px;
-    color: #afafaf;
+    color: #fff;
   }
 
-  a:hover,
+  /* a:hover,
   a:active {
     background: none;
     color: #fff;
-  }
+  } */
 
   .logo {
     left: 50%;
