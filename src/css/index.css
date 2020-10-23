@@ -267,7 +267,7 @@ a:hover {
 .spacing {
   margin-left: 0.9rem;
   margin-right: 0.9rem;
-  padding-bottom: 0.1rem;
+  margin-bottom: 0.1rem;
 }
 
 /* Estilização dos textos */
@@ -402,7 +402,7 @@ section {
 /* ------------ Seção 2 ----------- */
 
 .section-two {
-  background-color: #dfdfdf;
+  background-color: #e7e7e7;
 }
 .section-two .row-center {
   justify-content: space-evenly;
@@ -443,7 +443,7 @@ section {
 /* ------------ Seção 4 ----------- */
 
 .section-four {
-  background-color: #dfdfdf;
+  background-color: #e7e7e7;
 }
 
 .section-four .card {
