@@ -125,7 +125,7 @@ a:hover {
 
   nav ul li a {
     font-size: 20px;
-    color: #ccc;
+    color: #afafaf;
   }
 
   a:hover,
@@ -267,6 +267,7 @@ a:hover {
 .spacing {
   margin-left: 0.9rem;
   margin-right: 0.9rem;
+  padding-bottom: 0.1rem;
 }
 
 /* Estilização dos textos */
@@ -329,11 +330,11 @@ a:hover {
 }
 
 .color-default {
-  color: #b5b1b1;
+  color: #7e7e7e;
 }
 
 .color-default-light {
-  color: #cecece;
+  color: #afafaf;
 }
 
 .size1 {
@@ -401,7 +402,7 @@ section {
 /* ------------ Seção 2 ----------- */
 
 .section-two {
-  background-color: #f0f0f0;
+  background-color: #dfdfdf;
 }
 .section-two .row-center {
   justify-content: space-evenly;
@@ -442,7 +443,7 @@ section {
 /* ------------ Seção 4 ----------- */
 
 .section-four {
-  background-color: #f5f5f5;
+  background-color: #dfdfdf;
 }
 
 .section-four .card {
@@ -533,7 +534,7 @@ section {
 }
 
 .footer-section .linear-border {
-  background-color: #cccccc;
+  background-color: #afafaf;
   height: 0.8px;
 }
 
@@ -554,6 +555,7 @@ section {
   justify-content: center;
   align-items: center;
   margin: 0.2rem;
+  color: #afafaf;
 }
 
 .footerInfo img {
