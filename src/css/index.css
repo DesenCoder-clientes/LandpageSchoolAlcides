@@ -313,7 +313,7 @@ a:hover {
 }
 
 .color-default-light {
-  color: #afafaf;
+  color: #b3b2b2;
 }
 
 .size1 {
@@ -525,7 +525,6 @@ section {
   justify-content: center;
   align-items: center;
   margin: 0.2rem;
-  color: #afafaf;
 }
 
 .footerInfo img {
