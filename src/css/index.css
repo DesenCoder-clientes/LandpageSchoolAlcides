@@ -68,9 +68,10 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #333;
+  color: #666;
   padding: 7px 13px;
   border-radius: 3px;
+  font-weight: 600;
 }
 
 a:active,
