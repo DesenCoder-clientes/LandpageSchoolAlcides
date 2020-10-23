@@ -65,6 +65,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   line-height: 80px;
+  position: relative;
 }
 
 nav ul li a {
@@ -73,9 +74,12 @@ nav ul li a {
   border-radius: 3px;
 }
 
-a:active,
 a:hover {
   transition: 0.5s;
+  color: #ff6a6a;
+}
+
+.active {
   color: #ff6a6a;
 }
 
@@ -96,7 +100,20 @@ a:hover {
   display: none;
 }
 
+.border-active {
+  background-color: #ff6a6a;
+  width: 24px;
+  height: 4px;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 30%;
+  left: 10px;
+}
+
 @media (max-width: 952px) {
+  .border-active {
+    display: none;
+  }
   .checkbtn {
     display: block;
   }

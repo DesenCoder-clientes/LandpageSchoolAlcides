@@ -1,14 +1,15 @@
-const menuItems2 = document.querySelectorAll("nav li a");
+var div = document.querySelectorAll("nav ul li div");
+var a = document.querySelectorAll("nav li a");
 
-menuItems2.forEach((item) => {
-  item.addEventListener("click", function onClick() {
-    const id = item.getAttribute("id");
-
-    menuItems2.forEach((item) => {
-      if (id !== item.getAttribute("id")) {
-        item.classList.remove("active");
+div.forEach((items, divIndex) => {
+  a.forEach((items, index) => {
+    items.addEventListener("click", function activeLink() {
+      if (index === divIndex) {
+        div[divIndex].classList.add("border-active");
+        a[divIndex].classList.add("active");
       } else {
-        item.classList.add("active");
+        div[divIndex].classList.remove("border-active");
+        a[divIndex].classList.remove("active");
       }
     });
   });

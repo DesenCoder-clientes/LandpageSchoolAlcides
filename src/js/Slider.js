@@ -6,8 +6,6 @@ let max = images.length;
 let next = document.getElementById("next");
 let prev = document.getElementById("prev");
 
-console.log(indicator.length);
-
 function nextImage() {
   images[currentImageIndex].classList.remove("selected");
   indicator[currentImageIndex].classList.remove("actived");
