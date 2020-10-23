@@ -5,7 +5,6 @@ var btn = document.getElementById("check");
 btn.addEventListener("click", function onClick(event) {
   if (ul[0].style.left === "-100%" || ul[0].style.left === "") {
     ul[0].style.left = "0";
-    console.log("entrei");
   } else {
     ul[0].style.left = "-100%";
   }
