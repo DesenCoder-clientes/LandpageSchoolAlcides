@@ -35,7 +35,7 @@ prev.onclick = function () {
   images[currentImageIndex].classList.remove("selected");
   indicator[currentImageIndex].classList.remove("actived");
   currentImageIndex--;
-  if (currentImageIndex <= 0) currentImageIndex = 3;
+  if (currentImageIndex <= 0) currentImageIndex = 0;
   images[currentImageIndex].classList.add("selected");
   indicator[currentImageIndex].classList.add("actived");
   console.log("prev");
