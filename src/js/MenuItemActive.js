@@ -10,7 +10,10 @@ onscroll = function () {
         section.offsetTop + section.offsetHeight - section.offsetHeight * 0.25
     ) {
       var currentId = section.attributes.id.value;
-      removeAllActiveClasses();
+
+
+
+      removeAllActiveClasses(currentId);
       addActiveClass(currentId);
     }
   });
@@ -19,25 +22,22 @@ onscroll = function () {
 var removeAllActiveClasses = function () {
   document.querySelectorAll("nav li a").forEach((el) => {
     el.classList.remove("active");
+   });
+  
+   document.querySelectorAll("nav ul li div").forEach((el) => {
+    el.classList.remove("border-active");
   });
-  // document.querySelectorAll("nav ul li div").forEach((el) => {
-  //   el.classList.remove("border-active");
-  // });
 
 };
 
 
 
 var addActiveClass = function (id) {
-  // console.log(id);
-  var selector = `nav li a[href="#${id}"]`;
+  var selector = document.querySelector(`nav li a[href="#${id}"]`) ;
   var selectorTwo = document.getElementById(id + "-menu")
 
-  console.log(">>", id)
-  console.log(">>", selectorTwo.id)
-
-  // document.querySelector(selector).classList.add("active");
-  document.querySelector(selectorTwo.id).classList.add("border-active");
+  selector.classList.add("active");
+  selectorTwo.classList.add('border-active');
 
 };
 
@@ -49,9 +49,6 @@ navLinks.forEach((link) => {
     var currentId = e.target.attributes.href.value;
     var section = document.querySelector(currentId);
     var sectionPos = section.offsetTop;
-    // section.scrollIntoView({
-    //   behavior: "smooth",
-    // });
 
     window.scroll({
       top: sectionPos,
