@@ -100,7 +100,7 @@ a:hover {
   display: none;
 }
 
-.border-active {
+#border-active {
   background-color: #ff6a6a;
   width: 24px;
   height: 4px;

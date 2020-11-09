@@ -28,7 +28,6 @@ next.onclick = function () {
   if (currentImageIndex >= max) currentImageIndex = 0;
   images[currentImageIndex].classList.add("selected");
   indicator[currentImageIndex].classList.add("actived");
-  console.log("next");
 };
 
 prev.onclick = function () {
@@ -38,7 +37,6 @@ prev.onclick = function () {
   if (currentImageIndex <= 0) currentImageIndex = 0;
   images[currentImageIndex].classList.add("selected");
   indicator[currentImageIndex].classList.add("actived");
-  console.log("prev");
 };
 
 window.addEventListener("load", start);
