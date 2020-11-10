@@ -170,7 +170,7 @@ a:hover {
 
 .title-image {
   max-width: 100%;
-  margin-bottom: 1.2  em;
+  margin-bottom: 1.2em;
 }
 
 .card {
@@ -401,7 +401,6 @@ section {
 
 .section-two {
   background-color: #e7e7e7;
-  height: 100vh;
 }
 .section-two .row-center {
   justify-content: space-evenly;
