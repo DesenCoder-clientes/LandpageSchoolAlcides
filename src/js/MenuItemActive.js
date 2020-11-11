@@ -10,9 +10,6 @@ onscroll = function () {
         section.offsetTop + section.offsetHeight - section.offsetHeight * 0.25
     ) {
       var currentId = section.attributes.id.value;
-
-
-
       removeAllActiveClasses(currentId);
       addActiveClass(currentId);
     }
@@ -34,10 +31,11 @@ var removeAllActiveClasses = function () {
 
 var addActiveClass = function (id) {
   var selector = document.querySelector(`nav li a[href="#${id}"]`) ;
-  var selectorTwo = document.getElementById(id + "-menu")
+  var selectorTwo = document.getElementById(id + "-menu");
 
   selector.classList.add("active");
   selectorTwo.classList.add('border-active');
+
 
 };
 
@@ -48,11 +46,11 @@ navLinks.forEach((link) => {
     e.preventDefault();
     var currentId = e.target.attributes.href.value;
     var section = document.querySelector(currentId);
-    var sectionPos = section.offsetTop;
+    var sectionPos = section.offsetTop - 80;
+
 
     window.scroll({
       top: sectionPos,
-      behavior: "smooth",
     });
   });
 });
